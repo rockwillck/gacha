@@ -1,0 +1,80 @@
+body {
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 30vmin;
+	font-weight: bold;
+	transition: 0.2s;
+	flex: 1;
+	margin: 5vmin;
+	padding: 5vmin;
+	width: fit-content;
+	height: fit-content;
+	border: solid;
+	text-align: center;
+}
+
+button {
+	background-color: rgb(255, 255, 255);
+	border: none;
+	color: white;
+	font-size: 10vmin;
+	padding: 5vmin;
+	margin: 5vmin;
+	box-sizing: border-box;
+	font-family: monospace;
+	flex: 1;
+	transition: 0.2s;
+	text-transform: uppercase;
+	color: black;
+	border: solid;
+}
+button:hover:enabled  {
+	font-size: 12vmin;
+	font-weight: bold;
+	font-style: italic;
+	background-color: black;
+	color: white;
+}
+button:active:enabled {
+	font-size: 6vmin;
+	border-radius: 5vmin;
+}
+sub {
+	display: block;
+	font-size: 5vmin;
+}
+button:disabled {
+	color: gray;
+	cursor: not-allowed;
+}
+
+.crate {
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate: -50% -50%;
+	scale: 0;
+	width: 75vmin;
+	height: 75vmin;
+	border: solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 8vmin;
+	transition: 1s;
+	text-align: center;
+}
